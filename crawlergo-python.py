@@ -29,7 +29,7 @@ def main():
 
     print("##############sub_domain_list##########")
     sub_domain_list = result["sub_domain_list"]
-    print(json_dumps(sub_domain_list[0], indent=4))
+    print(json.dumps(sub_domain_list[0], indent=4))
 
 if __name__ == '__main__':
     main()
